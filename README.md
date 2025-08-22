@@ -77,6 +77,9 @@ Full market model accuracy:
 - 1-day prediction accuracy: 48.97%
 - 30-day prediction accuracy: 68.67%
 
+From the models we also plotted feature importance:
+![Random Forest Feature Importance](RandomForestFeatureImportance.png)
+
 **LSTM**:
 
 NFLX:
@@ -103,5 +106,15 @@ Full market model accuracy:
 - 1-day prediction accuracy: 49.70%
 - 30-day prediction accuracy: 87.74%
 
+1-Day Confusion Matrix:
+![](1ConfMatrix.png)
+
+30-Day Confusion Matrix:
+![](30ConfMatrix.png)
 
 These results highlight two key insights. First, both models struggle with 1-day predictions, hovering around chance-level accuracy, which suggests that short-term price movements are highly noisy and difficult to capture. Second, performance improves substantially for 30-day horizons, with the LSTM showing a clear advantage over the Random Forest. The LSTM consistently achieves stronger long-term predictive power across all stocks and in the overall market model, indicating that sequential modeling of temporal dependencies provides meaningful benefits when forecasting medium-term stock trends.
+
+### Next Steps 
+- Enhance Feature Engineering: Incorporate additional financial indicators (e.g., MACD, Bollinger Bands) and external data (e.g., news sentiment, macroeconomic indicators).
+
+- Expand Time Horizons: Evaluate performance across multiple horizons (e.g., 7-day, 60-day) to better capture short- vs. long-term trends.
