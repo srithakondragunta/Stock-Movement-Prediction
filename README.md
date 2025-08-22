@@ -52,18 +52,23 @@ What methods are you using to answer the question?
 For both the baseline Random Forest Model and Long Short Term Memory Model there are two types of models: individual models trained per stock and a full market model trained on all available data.
 
 **Random Forest**:
+
 NFLX:
 - 1-day prediction accuracy: 0.4938
 - 30-day prediction accuracy: 0.6831
+
 AAPL:
 - 1-day prediction accuracy: 0.5432
 - 30-day prediction accuracy: 0.6337
+
 AMZN:
 - 1-day prediction accuracy: 0.5267
 - 30-day prediction accuracy: 0.6379
+
 GOOGL:
 - 1-day prediction accuracy: 0.4979
 - 30-day prediction accuracy: 0.6667
+
 META:
 - 1-day prediction accuracy: 0.4938
 - 30-day prediction accuracy: 0.6584
@@ -73,18 +78,23 @@ Full market model accuracy:
 - 30-day prediction accuracy: 68.67%
 
 **LSTM**:
+
 NFLX:
 - 1-day prediction accuracy: 46.89%
 - 30-day prediction accuracy: 84.02%
+
 AAPL:
 - 1-day prediction accuracy: 51.44%
 - 30-day prediction accuracy: 85.95%
+
 AMZN:
 - 1-day prediction accuracy: 47.58%
 - 30-day prediction accuracy: 90.00%
+
 GOOGL:
 - 1-day prediction accuracy: 51.29%
 - 30-day prediction accuracy: 88.43%
+
 META:
 - 1-day prediction accuracy: 51.60%
 - 30-day prediction accuracy: 90.00%
