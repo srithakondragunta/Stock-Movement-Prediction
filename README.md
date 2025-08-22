@@ -27,7 +27,7 @@ Stock market forecasting is notoriously difficult, but even small improvements i
 
 ### Data Sources/Acquistion
 All historical stock data was retrieved directly from Yahoo Finance using the open-source Python library yfinance. The dataset includes daily Open, High, Low, Close, and Volume (OHLCV) data for FAANG companies from January of 2020 to December of 2024. 
-![Trading Volume of FAANG stocks from 2020-2024](image.png)
+![Trading Volume of FAANG stocks from 2020-2024](FAANGVolume.png)
 
 #### Methodology
 What methods are you using to answer the question?
